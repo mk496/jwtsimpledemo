@@ -1,0 +1,4 @@
+curl -X POST http://localhost:3001/login --header "Content-Type: application/json" --data "{ \"username\": \"admin\", \"password\": \"admin\" }"
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE2NTY2OTM2MjR9.nY5WzT2DHbGjZ-Ltd6fo55mN-BSgOLHcGEQOtis8m6Y"}
+
+https://jsramblings.com/authentication-with-node-and-jwt-a-simple-example/
