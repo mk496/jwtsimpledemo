@@ -14,7 +14,7 @@ Simple start endpoint with "node serverdo.js"
 
 then we can test with CURL or Postman.
 
-A) CURL
+## A) CURL
 
 In one CMD shell:
 
@@ -36,7 +36,7 @@ You can play and wait up to end of validity of Token or
 e.g. change Token 
 ![image](https://user-images.githubusercontent.com/35866757/176991152-783421ee-a89c-4449-b2a3-d92234510c69.png)
 
-B) Postman  (download desktop agent from https://www.postman.com/downloads/)
+## B) Postman  (download desktop agent from https://www.postman.com/downloads/)
 1) Login  with POST:
 ![image](https://user-images.githubusercontent.com/35866757/176991228-ad586588-19bc-4e9e-8951-0f57a1e377d0.png)
 ![image](https://user-images.githubusercontent.com/35866757/176991250-54fd347f-7576-4f28-bf75-3e082930ec55.png)
