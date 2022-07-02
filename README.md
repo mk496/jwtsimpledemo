@@ -1,5 +1,5 @@
 # jwtsimpledemo
-Introduction:
+# Introduction:
 
 This is simple demo how to use JWT Token with Express nodes module.
 Purpose of this is to have very simple as possible and WORKING 100% example. 
@@ -8,7 +8,7 @@ A) https://jsramblings.com/authentication-with-node-and-jwt-a-simple-example/   
 B) https://www.digitalocean.com/community/tutorials/nodejs-jwt-expressjs  - from get request validation 
 Case A) is ok up to verifying via curl get method. Then B) was introduced.
 
-Description:
+# Description:
 
 Simple start endpoint with "node serverdo.js"
 
