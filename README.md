@@ -46,5 +46,9 @@ B) Postman  (download desktop agent from https://www.postman.com/downloads/)
 
 ![image](https://user-images.githubusercontent.com/35866757/176991325-15456b72-7f6f-411d-b5d7-78f5fb39d61a.png)
 
+We play a bit and change token:
+![image](https://user-images.githubusercontent.com/35866757/176991695-fa478587-b62e-4d72-a0bc-d797da7f9143.png)
+
+play with { expiresIn: '1600s' }  set short etc...
 
 
