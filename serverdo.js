@@ -37,7 +37,7 @@ app.post("/login", (req, res) => {
 
     if (username === "admin" && password === "admin") {
         return res.json({
-            token: jwt.sign({ user: "admin" }, process.env.TOKEN_SECRET, { expiresIn: '1300s' }),
+            token: jwt.sign({ user: "admin" }, process.env.TOKEN_SECRET, { expiresIn: '1800s' }),
         });
     }
 

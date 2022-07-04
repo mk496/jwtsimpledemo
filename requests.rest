@@ -10,7 +10,7 @@ Content-Type: application/json
 
 
 GET http://localhost:3001/super-secure-resource
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE2NTY5Mjc0ODksImV4cCI6MTY1NjkyODc4OX0.TKuxVgInCV0drqADmGEpz6OJOhDvz6Et7WLlKKb69Og
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE2NTY5NDAwOTUsImV4cCI6MTY1Njk0MDExMH0.o9wzUNqaspthrcnhKL9nU5WIZM8zVbgRxOFWe_50Ns0
 
 
 
