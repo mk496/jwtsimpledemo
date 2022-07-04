@@ -17,23 +17,6 @@ dotenv.config();
 process.env.TOKEN_SECRET = "goK!pusp6ThEdURUtRenOwUhAsWUCLheBazl!uJLPlS8EbreWLdrupIwabRAsiBu";
 
 
-
-
-// app.post("/login", (req, res) => {
-//     const { username, password } = req.body;
-//     console.log(`${username} is trying to login ..`);
-
-//     if (username === "admin" && password === "admin") {
-//         return res.json({
-//             token: jsonwebtoken.sign({ user: "admin" }, JWT_SECRET),
-//         });
-//     }
-
-//     return res
-//         .status(401)
-//         .json({ message: "The username and password your provided are invalid" });
-// });
-
 function authenticateToken(req, res, next) {
     const authHeader = req.headers['authorization']
     const token = authHeader && authHeader.split(' ')[1]
@@ -50,11 +33,11 @@ function authenticateToken(req, res, next) {
 
 app.post("/login", (req, res) => {
     const { username, password } = req.body;
-    console.log(`${username} is trying to login ..`);
+    console.log(`${username} is trying to login ...`);
 
     if (username === "admin" && password === "admin") {
         return res.json({
-            token: jwt.sign({ user: "admin" }, process.env.TOKEN_SECRET, { expiresIn: '1600s' } ),
+            token: jwt.sign({ user: "admin" }, process.env.TOKEN_SECRET, { expiresIn: '1300s' }),
         });
     }
 
@@ -64,13 +47,14 @@ app.post("/login", (req, res) => {
 });
 
 
+app.delete("/logout", (req, res) => {   
 
+    res.status(204)
+})
 
 
 app.get("/super-secure-resource", authenticateToken, (req, res) => {
     res
-        // .status(401)
-        // .json({ message: "You need to be logged in to access this resource" });
          .status(200)
         .json({ message: "Heyah!!!! Sukces" });
 });
